@@ -1,0 +1,816 @@
+html {
+    scroll-behavior: smooth;
+}
+.header-2 {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+    max-width: 1440px;
+    
+
+}
+.body {
+    font-family: 'muli';
+}
+.header-2 .brand-name {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #61BA9A;
+    margin-left: 10px;   
+}
+img[alt=logo]{
+   margin-left: 97px;
+}
+
+.exp-colapse  .nav-item .blo{
+    margin-right: 300px;
+}
+.header-2 .brand-name:hover {
+    color: #61BA9A;
+} 
+.header-2 .navbar-toggler-icon {
+    color: red;
+}
+a[explore]{
+    margin-left: 190px;
+}
+.exp-colapse  .nav-item .exp {
+    margin-top: 17px;
+    margin-right: 18px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #7E7C7C;
+}
+
+.exp-colapse  .nav-item .exp:hover {
+    color: #7E7C7C;   
+    text-decoration: #61BA9A;
+    text-decoration-color: #61BA9A;
+    
+}
+
+.exp-colapse  .nav-item .login {
+    margin-top: 17px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #61BA9A;
+}
+.exp-colapse  .nav-item .login:hover {
+    color: #61BA9A;
+} 
+
+.exp-colapse .login {
+
+}
+.header .brand-name {
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+.right-btn button {
+    width: 160px;
+    height: 50px;
+    background: #61BA9A;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: mu 'Muli', sans-serif;
+    color: #FFFFFF;
+    font-family: 'Muli';
+    transition: color 2s ease, transform 1s ease;
+}
+.right-btn button:hover {
+    transform: translateY(-6px)
+}
+/* The animated search bar */
+input[type=text] {
+    width: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('image/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    margin-top: 17px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+/* End of navigation bar  */
+
+/* Who we are section */
+header {
+    background-image: url(image/Floating_objects.png);
+    height: 503px;   
+}
+
+.caption h3 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 41px;
+    margin-top: 122px;
+}
+.caption h3 span:first-child{
+    color: #61BA9A;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.caption h3 span:nth-child(2) {
+    color: #CE93A8;
+    font-weight: 400;
+    font-style: italic;
+}
+.caption h3 .third{
+   color: #FE757D;
+   font-weight: 400;
+   font-style: italic;
+}
+header .itemize{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header .itemize li {
+    margin-left:20px;
+    margin-top: 32px;
+}
+header .itemize li:nth-child(1){
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+text-transform: capitalize;
+color: #333333;
+}
+header .itemize li:nth-child(2){
+    font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #333333;
+}
+
+header .itemize li:nth-child(3){  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.ca-button{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     align-items: flex-end;
+     transition: color 2s ease, transform 1s ease;
+}
+.ca-button:hover {
+    transform: translateY(-6px)
+}
+ .ca-button button{
+    width: 315px;
+    height: 61px;
+    margin-top: 33px;
+     border: none;
+     background: #61BA9A;
+     box-shadow: 0px 12px 24px rgba(97, 186, 154, 0.25);
+     border-radius: 5px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+ }
+ .ca-button button:nth-child(1) {
+    margin-right: 20px;
+ }
+ .ca-button button:nth-child(2){
+     margin-top: 15px;
+     
+ }
+ /* End of who we are section */
+
+ /* Section */
+section.top-sect {
+    margin-top: 60px;
+    height: 350px;
+}
+section.top-sect h4 {
+    font-family: 'muli';
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #333333;
+}
+/* responsive style for mobile screen */
+ @media only screen and (max-width: 766px){
+    section.top-sect .container-card .f-card {
+        margin-top:  18px;
+  }
+ }
+ /* First section */
+section.top-sect .container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    justify-content: center;
+    margin-top: 47px;
+}
+section.top-sect .container-card .f-card{
+    min-width: 403px;
+    height: 300px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
+    text-align: center;
+    margin-left: 18px;
+}
+.f-card img {
+    margin-top: 20px;
+    margin-bottom: 13.39px;
+}
+/* Second section */
+div[second-sect] h4{
+    margin-top: 64px;
+    text-align: center;
+
+}
+.se {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left-sect img{
+    width: 500px;
+    height: 867.82px;
+}
+.right-sect {
+    margin-top: 26px;
+}
+.right-sect .sect-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 117px;
+    margin-top: 140px;
+}
+.right-sect .sect-card img {
+    width: 100px;
+    height: 100px;
+}
+.sect-card div {
+    margin-left: 30px;
+    margin-top: -9px;
+}
+.sect-card div h6 {
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #333333;
+}
+
+.sect-card p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+
+}
+/* The card slider section */
+.slide-wrapper h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    text-align: center;
+    margin-top: 24px;
+}
+ .car .it .slide-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    justify-content: center;
+    margin-top: 30px;
+}
+ .slide-card .s-card{
+    min-width: 400px;
+    height: 285px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
+    text-align: center;
+    margin-left: 18px;
+}
+.s-card img {
+    margin-top: 20px;
+    margin-bottom: 13.39px;
+}
+.s-card div[fl]{
+ float: right;
+ margin-right: 16px;
+}
+.s-card .head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.s-card p {
+    margin-top: 25px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.s-card p span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6A6A6A;
+}
+.s-card p article {
+    float: left;
+    width: 344px;
+    height: 80px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 145%;
+    color: #55ACEE;
+}
+.bot-card p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #929292;
+    margin-left: 13px;
+}
+.fot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 28px;
+    margin-top: -15px;
+}
+.fot p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #55ACEE;
+    margin-left: 10px;
+}
+.fot .ist{
+    width: 16px;
+    height: 16px;
+}
+.fot .secon {
+    width: 6px;
+    height: 12px;
+    margin-left: 103px;
+}
+.sd .head{
+    margin-bottom: -19px;
+}
+/* styling the slide indicator */
+.indi {
+    position: relative;
+    top: 410px; 
+}
+.indi li {
+    width: 30px;
+    height: 12px;
+    background: #D6495D;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+/* Styling the first bottom wrapper */
+section[first-bottom-wrapper]{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 180px;
+    padding-top: 35.8px;
+    background: #F9FFFD;
+    border-radius: 50px;
+}
+ .left-content {
+margin-top: 69px;
+margin-left: -49px;
+}
+.left-content button {
+    width: 244px;
+    height: 40px;
+    border: none;
+    background: #61BA9A;
+    box-shadow: 0px 12px 24px rgba(97, 186, 154, 0.25);
+    border-radius: 5px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 43px;
+}
+.left-content h5 {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.left-content p {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.left-content .fourth{
+    margin-top: 34px;
+    font-size: 14px;
+}
+section[first-bottom-wrapper] .right-content img {
+    width: 706.17px;
+    height: 423.89px;
+    position: relative;
+    left: 150px;
+}
+/* The last section before the footer */
+section[last-wrapper] h5{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 64px;
+}
+section[last-wrapper] p {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #8F8F8F;
+}
+.las {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type="email"]{
+    width: 287px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.las button {
+    width: 111px;
+    height: 40px;
+    left: 799px;
+    top: 3342px;
+    background: #61BA9A;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+
+input[type="email"]::-webkit-input-placeholder{
+    padding-left: 13px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+/* End of last section before the footer */
+
+/* Highlight section */
+section[highlight]{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+section[highlight] .fea h6 {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+}
+section[highlight] .fea p{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #8F8F8F;
+}
+/* End of highlight section*/
+
+/* Footer */
+.foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #8F8F8F;
+    margin-top: 64px;
+
+}
+.foot .privacy a{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #8F8F8F;
+    margin-left: 38px;
+}
+.foot .term a{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #8F8F8F;
+    margin-left: 27px;
+}
+.scrol{
+    display: flex;
+    justify-content: center;
+}
+.scrol a button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'muli';
+    float: right;
+    height: 35px;
+    background: #61BA9A;
+    color: #FFFFFF;
+}
+
+
+  /* For Tablets */
+  @media screen and (max-width: 768px) {
+    img[alt=logo]{
+        margin-left: -3px;
+        
+        
+    }
+    div[second-sect] h4 {
+        margin-top: 770px;
+    }
+    a[explore]{
+       margin-left: -1px;
+    }
+    .header-2 .brand-name {
+     display: none;   
+    }
+ 
+    .exp-colapse .login {
+        position: relative;
+        left: -7px;
+     }
+ 
+     .res {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-left: -59px;
+        
+    }
+    .exp-colapse .nav-item .se {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    input[type=text]{                
+    margin-top: 8px;
+    }
+     input[type=text]:focus{
+     width: 180px;
+     
+     }
+     .exp-colapse .nav-item .se {
+         margin-left: -67px;
+     }
+     section[first-bottom-wrapper] .right-content img {
+        min-width: 200px;
+        max-width: 400px;
+        height: 423.89px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -40px;
+    }
+    .se {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .left-sect img{
+        width: 500px;
+        height: 867.82px;
+    }
+}
+    /* For mobile phones */
+    @media screen and (min-width:482px){
+        .ca-button button:nth-child(2){
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .caption h3 {
+            text-align: center;
+            font-size: 24px;
+            line-height: 41px;
+            margin-top: 122px;
+        }
+
+        .ca-button{
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+                        
+            transition: color 2s ease, transform 1s ease;
+           
+        }
+        .ca-button button:nth-child(1) {
+            margin: 43px auto 0px 0px;
+        }
+        .ca-button button:nth-child(2) {
+         margin: 15px auto;
+         width: 315px;
+         height: 61px;
+         background: #FFFFFF;
+         border: 2px solid #61BA9A;
+         box-sizing: border-box;
+         border-radius: 5px;
+         color: #4ACA9C;
+        }
+        
+        header .itemize li {
+            margin-left:20px;
+            margin-top: 32px;
+        }
+        .left-sect img{
+         display: none;
+        }
+        section.top-sect .container-card .f-card {
+            min-width: 391px;
+        }
+       /* How it works right section */
+       .right-sect {
+        
+    
+    }
+    .right-sect .sect-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+    
+       /* End of how it works right section */
+            .res {
+                display: flex;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+                margin-left: -59px;
+                
+            }
+            .exp-colapse .nav-item .se {
+                margin: 0 auto;
+                display: flex;
+                justify-content: flex-end;
+            }
+            input[type=text]{                
+            margin-top: 8px;
+            }
+        /* The card slider section */
+.slide-wrapper h5{
+    display: none;
+}
+ .car .it .slide-card {
+   display: none;
+}
+ .slide-card .s-card{
+    display: none;
+}
+.s-card img {
+    margin-top: 20px;
+    margin-bottom: 13.39px;
+}
+.s-card div[fl]{
+ float: right;
+ margin-right: 16px;
+}
+.s-card .head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section[first-bottom-wrapper]{
+    display: none;
+}
+section[last-bottom-wrapper]{
+    display: none;
+}
+section[last-wrapper]{
+    display: none;
+}
+section[highlight]{
+    display: none;
+}
+footer {
+    display: none;
+}
+.indi {
+    display: none;
+}
+.slide-wrapper .log img{
+    display: none;
+}
+* {
+box-sizing: border-box;
+}
+   }
