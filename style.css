@@ -118,6 +118,7 @@ input[type=text] {
 /* Who we are section */
 header {
     background-image: url(image/Floating_objects.png);
+    max-width: 1440px;
     height: 503px;   
 }
 
@@ -232,7 +233,7 @@ section.top-sect h4 {
     color: #333333;
 }
 /* responsive style for mobile screen */
- @media only screen and (max-width: 766px){
+ @media only screen and (min-width: 480px) and (max-width: 766px){
     section.top-sect .container-card .f-card {
         margin-top:  18px;
   }
@@ -247,7 +248,7 @@ section.top-sect .container-card {
     margin-top: 47px;
 }
 section.top-sect .container-card .f-card{
-    min-width: 403px;
+    
     height: 300px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
     text-align: center;
@@ -680,6 +681,7 @@ section[highlight] .fea p{
         left: -40px;
     }
     .se {
+        width: 80%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -700,8 +702,11 @@ section[highlight] .fea p{
         .caption h3 {
             text-align: center;
             font-size: 24px;
-            line-height: 41px;
             margin-top: 122px;
+            width: 310px;
+            height: 75px;
+            line-height: 102.5%;
+            margin-left: 17%;
         }
 
         .ca-button{
@@ -734,7 +739,7 @@ section[highlight] .fea p{
          display: none;
         }
         section.top-sect .container-card .f-card {
-            min-width: 391px;
+            width: 70%;
         }
        /* How it works right section */
        .right-sect {
